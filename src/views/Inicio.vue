@@ -20,9 +20,9 @@ section
                 p.banner-principal__datos__item__texto 633400
               li.mb-3.banner-principal__datos__item
                 p.h6.mb-0.me-3.banner-principal__datos__item__titulo Total Horas: 
-                p.banner-principal__datos__item__texto 2208 Horas
+                p.banner-principal__datos__item__texto 2208 
               li.mb-3.banner-principal__datos__item
-                p.h6.mb-0.me-3.banner-principal__datos__item__titulo Duración en meses: 
+                p.h6.mb-0.me-3.banner-principal__datos__item__titulo Duración: 
                 p.banner-principal__datos__item__texto 15 meses
               li.mb-3.banner-principal__datos__item
                 p.h6.mb-0.me-3.banner-principal__datos__item__titulo Modalidad: 
@@ -30,7 +30,7 @@ section
         .d-none.d-lg-block.col-lg-5
           //- img(src="@/assets/curso/banner-princiapal.svg")
           .video
-            | <iframe data-v-1f9e4816="" width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
+            | <iframe data-v-1f9e4816="" width="560" height="315" src="https://www.youtube.com/embed/Hq8lxB5Yk2Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
 
   .container.tarjeta.tarjeta__template--azul-claro.p-4.p-md-5.mb-5(data-aos="fade-up")
     .titulo__template--a.mb-4
@@ -150,6 +150,26 @@ section
     .titulo__template--a.mb-4
       span.h4 5. Perfil de egreso 
     p El egresado de este programa tendrá la capacidad de prestar el servicio de reservas, recepción y manejo de valores en caja, en idiomas español e inglés, de manera oportuna, manteniendo buenas relaciones interpersonales, trabajo en equipo y resolución de conflictos, contribuyendo así al cumplimiento de los estándares de calidad según las políticas del establecimiento. 
+  .container.tarjeta.tarjeta__template--azul-claro.p-4.p-md-5.mb-5(data-aos="fade-up")
+    .titulo__template--a.mb-4
+      span.h4 6. Estrategia metodológica
+    p Centrada en la construcción de autonomía para garantizar la calidad de la formación en el marco de la formación por competencias, el aprendizaje por proyectos y el uso de técnicas didácticas activas que estimulan el pensamiento para la resolución de problemas simulados y reales; soportadas en el utilización de las tecnologías de la información y la comunicación, integradas, en ambientes virtuales de aprendizaje, que en todo caso recrean el contexto productivo y vinculan al aprendiz con la realidad cotidiana y el desarrollo de las competencias. 
+      br
+      br
+      | Igualmente, debe estimular de manera permanente la autocrítica y la reflexión del aprendiz sobre el que hacer y los resultados de aprendizaje que logra a través de la vinculación activa de las cuatro fuentes de información para la construcción de conocimiento:
+    ul.lista-ul.ps-5
+        li 
+          i.fas.fa-angle-right
+          | El instructor – tutor.
+        li 
+          i.fas.fa-angle-right
+          | El entorno.
+        li 
+          i.fas.fa-angle-right
+          | Las TIC.
+          li 
+            i.fas.fa-angle-right
+            | El trabajo colaborativo.
 
 
   //- Créditos
